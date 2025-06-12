@@ -1,0 +1,6 @@
+[global]
+    target = "~/bin"
+
+["sharkdp/bat"]
+    asset_filters = ["^gnu", "^.deb"]
+["ajeetdsouza/zoxide"]
