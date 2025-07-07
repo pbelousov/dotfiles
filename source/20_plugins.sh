@@ -33,7 +33,7 @@ if ! zgenom saved; then
   zgenom ohmyzsh plugins/gh
   zgenom ohmyzsh plugins/git
   zgenom ohmyzsh plugins/github
-  zgenom ohmyzsh plugins/arcanist
+  # zgenom ohmyzsh plugins/arcanist # Conflicts with Arrowhead
 
   # System enhancements
   zgenom ohmyzsh plugins/iterm2
