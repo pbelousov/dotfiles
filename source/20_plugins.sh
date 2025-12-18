@@ -1,5 +1,13 @@
 source "${HOME}/.zgenom/zgenom.zsh"
 
+# Auto-install zgenom if not found
+if [[ ! -f "${HOME}/.zgenom/zgenom.zsh" ]]; then
+  echo "Installing zgenom..."
+  git clone https://github.com/jandamm/zgenom.git "${HOME}/.zgenom"
+fi
+
+source "${HOME}/.zgenom/zgenom.zsh"
+
 # Check for plugin and zgenom updates every 7 days
 # This does not increase the startup time.
 # zgenom autoupdate
